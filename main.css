@@ -91,7 +91,7 @@ a {
     display: flex;
     gap: 20px;
     justify-content: center;
-    padding-bottom: 350px;
+    padding-bottom: 250px;
 }
 
 .info-images {
@@ -103,16 +103,70 @@ a {
 
 
 }
+
 .info-images img {
     border-style: solid;
     border-color: #3882F6;
     border-radius: 12px;
+    object-fit: cover;
 }
+
 .info-images p {
     padding-top: 6px;
     max-width: 250px;
 }
+
 main h1 {
     text-align: center;
     padding: 30px;
+}
+
+.quote-section {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+
+    justify-content: center;
+}
+
+.quote-section div {
+    align-items: center;
+    max-width: 1000px;
+    min-height: 500px;
+}
+
+.rest-of-content {
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cta {
+    background-color:#3882F6;
+    padding: 20px;
+    border-radius: 6px;
+    color:#F9FAF8;
+    display: flex;
+    gap: 16px;
+}
+.cta-button button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    padding: 5px 20px;
+}
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color:#F9FAF8;
+    padding: 35px;
 }
