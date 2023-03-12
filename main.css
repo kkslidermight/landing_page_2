@@ -91,18 +91,27 @@ a {
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding-bottom: 350px;
 }
 
 .info-images {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+
+
+}
+.info-images img {
     border-style: solid;
     border-color: #3882F6;
     border-radius: 12px;
 }
-
+.info-images p {
+    padding-top: 6px;
+    max-width: 250px;
+}
 main h1 {
     text-align: center;
     padding: 30px;
