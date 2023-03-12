@@ -122,14 +122,14 @@ main h1 {
 }
 
 .quote-section {
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
     background-color: #E5E7EB;
-    display: flex;
 
-    justify-content: center;
 }
 
 .quote-section div {
@@ -147,7 +147,6 @@ cite {
 
 .rest-of-content {
     background-color: #E5E7EB;
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
