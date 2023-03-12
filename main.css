@@ -138,6 +138,13 @@ main h1 {
     min-height: 500px;
 }
 
+cite {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    padding-left: 500px;
+}
+
 .rest-of-content {
     background-color: #E5E7EB;
     padding-top: 50px;
